@@ -1,0 +1,95 @@
+ ;
+ ; Tybee Runs
+ ;
+ ; radar  = scatr
+ ;
+ nfmt   = 0
+ ntr    = 512
+ br     = 50
+ efghz  = 9.25                !  Center frequency (GHz)
+ sampr  = 5.12E+7             !  A/D sampling (Hz)
+ prf    = 200.0               !  Pulse repetition rate (Hz)
+ moddat = 0                   !  Don't conjugate input data
+ strtch = 0                   !  Fully compressed, then FFT in r
+ curve  = 8                   !  Image targets only, advanced
+ acoefs = 4                   !  a0, at, ar, af
+ npass  = 129
+ dbinc  = 0.2                 !  Count down from the peak
+ overrg = 1.5
+ center = 0.05
+ taywtr = 0.0
+ taywta = -30.0
+ quiet  = 1                   !  Turn off most screen output
+ ;
+ spulse = 11601 npulse = 48800
+ ;
+ naskip = 4 nspf = 40 nafill = 64 nfskip = 8
+ ;
+ tgt_si = 1
+ ;
+ notch  = 1 vnotch = 0.75 dvntch = 1.5
+ ;
+ ifile  = sc15a07
+ ;
+ ofile  = sc15a07
+ ;
+ go
+ ;
+ notch  = 1 vnotch = 5.05 dvntch = 1.5
+ ;
+ ifile  = sc15a08
+ ;
+ ofile  = sc15a08
+ ;
+ go
+ ;
+ notch  = 1 vnotch = 4.24 dvntch = 1.5
+ ;
+ ifile  = sc15a09
+ ;
+ ofile  = sc15a09
+ ;
+ go
+ ;
+ notch  = 1 vnotch = 2.03 dvntch = 1.5
+ ;
+ ifile  = sc15a10
+ ;
+ ofile  = sc15a10
+ ;
+ go
+ ;
+ notch  = 1 vnotch = -1.13 dvntch = 1.5
+ ;
+ ifile  = sc15a11
+ ;
+ ofile  = sc15a11
+ ;
+ go
+ ;
+ notch  = 1 vnotch = -3.96 dvntch = 1.5
+ ;
+ ifile  = sc15a12
+ ;
+ ofile  = sc15a12
+ ;
+ go
+ ;
+ notch  = 1 vnotch = -6.34 dvntch = 1.5
+ ;
+ ifile  = sc15a13
+ ;
+ ofile  = sc15a13
+ ;
+ go
+ ;
+ notch  = 1 vnotch = -4.49 dvntch = 1.5
+ ;
+ ifile  = sc15a14
+ ;
+ ofile  = sc15a14
+ ;
+ go
+ ;
+ quit
+ ;

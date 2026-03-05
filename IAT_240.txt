@@ -1,0 +1,600 @@
+ 
+TybeeIAT
+
+
+ sc15a07.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:    -1.015     5.417     0.204     0.228
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):       -72.0557    0.0639
+
+ Mean bearing (deg) rate from GPS data (deg/s):          -82.6693    0.0675
+
+ Std of In-track and Cross-track Displacements:            1.8933    2.4084
+
+ Mean heading (deg), Speed (m/s):                        -10.6139    5.5148
+
+ Mean heading (deg) rate from GPS data (deg/s):          -10.6140    0.0036
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):     -72.1787    0.0673     0.0673
+
+ Input and Output Variances:     0.043432    10.380325
+
+ Input and Output Variances:     0.050359    12.035869
+
+ Input and Output Variances:     0.068083    16.271738
+
+ Input and Output Variances:     0.078673    18.802840
+
+ Input and Output Variances:     0.080229     0.096272
+
+ Means of moc32 and mdown:       1.683936     1.683936
+
+ Input and Output Variances:     0.243585     0.080229     0.096272    16.271738     0.043432    10.380325
+
+ Mean and Std. of heading from GPS Data:                 -10.6139    2.1046
+
+ Average speed, speed of average components:               5.5148    5.4947
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -5.2182   -5.2277    5.2182   -5.2182
+ LHS, RHS, xrv:                                           27.2296   27.2296   -5.2182
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):               1.6839    0.0058    1.4000    0.2832
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.2832    0.2829
+
+ wavePeriod, wavePeriodUse, std(mocomp):                   5.5086    4.9578    0.1988
+ Original Mean, Output Mean (m/s):                         1.6839    1.6844
+
+ Original Acc, Output Acc (m/s^2):                         0.0058    0.0058
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:       4.9578    0.2829    0.4500    0.4386    0.3541
+
+ Acceleration Error, dRmaxA:                              -0.0003   -2.2876
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -5.0454   -5.2277  105.0454   -5.0454
+ LHS, RHS, xrv:                                         3029.9912 3029.9912   -5.0454
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                        0.0057    0.0061    0.0681
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):             -72.1     -71.5       0.5
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -4.9169   -5.2277  104.9169   -4.9169
+ LHS, RHS, xrv:                                         3015.8639 3015.8639   -4.9169
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):    0.0057    0.0061    0.0678    0.0058
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):               -72.1     -71.1       1.0
+
+
+ sc15a08.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:    -4.256     3.160     0.279     0.286
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):       -14.1527    0.0261
+
+ Mean bearing (deg) rate from GPS data (deg/s):          -67.5417    0.0128
+
+ Std of In-track and Cross-track Displacements:            1.3306    2.3635
+
+ Mean heading (deg), Speed (m/s):                        -53.3903    5.3114
+
+ Mean heading (deg) rate from GPS data (deg/s):          -53.3890   -0.0133
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):     -14.2072    0.0129     0.0129
+
+ Input and Output Variances:     0.052046    12.439066
+
+ Input and Output Variances:     0.100278    23.966549
+
+ Input and Output Variances:     0.029875     7.140084
+
+ Input and Output Variances:     0.037219     8.895324
+
+ Input and Output Variances:     0.037349     0.044818
+
+ Means of moc32 and mdown:       5.142016     5.142016
+
+ Input and Output Variances:     0.041080     0.037349     0.044818     7.140084     0.052046    12.439066
+
+ Mean and Std. of heading from GPS Data:                 -53.3903    3.6471
+
+ Average speed, speed of average components:               5.3114    5.2986
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -1.3042   -1.2940    1.3042   -1.3042
+ LHS, RHS, xrv:                                            1.7010    1.7010   -1.3042
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):               5.1420    0.0009    0.2116    0.1933
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.1933    0.1930
+
+ wavePeriod, wavePeriodUse, std(mocomp):                   3.2012    2.8811    0.1391
+ Original Mean, Output Mean (m/s):                         5.1420    5.1415
+
+ Original Acc, Output Acc (m/s^2):                         0.0009    0.0009
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:       2.8811    0.1930    0.1521    0.1404    0.6925
+
+ Acceleration Error, dRmaxA:                               0.0006    4.3008
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -1.2107   -1.2940  101.2107   -1.2107
+ LHS, RHS, xrv:                                         2622.5329 2622.5329   -1.2107
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                        0.0009    0.0003    0.0456
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):             -14.1     -13.2       0.9
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -1.5450   -1.2940  101.5450   -1.5450
+ LHS, RHS, xrv:                                         2656.8831 2656.8831   -1.5450
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):    0.0009    0.0003    0.0462    0.0009
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):               -14.1     -16.7      -2.6
+
+
+ sc15a09.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:    -5.289    -1.265     0.194     0.177
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):        34.0262   -0.0198
+
+ Mean bearing (deg) rate from GPS data (deg/s):          -69.4515   -0.0234
+
+ Std of In-track and Cross-track Displacements:            2.6685    1.9484
+
+ Mean heading (deg), Speed (m/s):                       -103.4778    5.4413
+
+ Mean heading (deg) rate from GPS data (deg/s):         -103.4777   -0.0036
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):      34.0958   -0.0236    -0.0236
+
+ Input and Output Variances:     0.043558    10.410379
+
+ Input and Output Variances:     0.025061     5.989605
+
+ Input and Output Variances:     0.022489     5.374961
+
+ Input and Output Variances:     0.027887     6.665100
+
+ Input and Output Variances:     0.028197     0.033836
+
+ Means of moc32 and mdown:       4.536933     4.536933
+
+ Input and Output Variances:     0.035300     0.028197     0.033836     5.374961     0.043558    10.410379
+
+ Mean and Std. of heading from GPS Data:                -103.4778    2.0059
+
+ Average speed, speed of average components:               5.4413    5.4364
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:         3.0507    3.0401    3.0507   -3.0507
+ LHS, RHS, xrv:                                            9.3070    9.3070    3.0507
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):               4.5369    0.0012    0.2919    0.1679
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.1679    0.1676
+
+ wavePeriod, wavePeriodUse, std(mocomp):                   3.3234    2.9911    0.1277
+ Original Mean, Output Mean (m/s):                         4.5369    4.5364
+
+ Original Acc, Output Acc (m/s^2):                         0.0012    0.0012
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:       2.9911    0.1676    0.1528    0.1274    0.6873
+
+ Acceleration Error, dRmaxA:                              -0.0000   -0.3067
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         3.0820    3.0401   96.9180    3.0820
+ LHS, RHS, xrv:                                         2201.2944 2201.2944    3.0820
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                        0.0012    0.0013    0.0298
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):              34.0      34.2       0.2
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         3.1156    3.0401   96.8844    3.1156
+ LHS, RHS, xrv:                                         2198.1439 2198.1439    3.1156
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):    0.0012    0.0013    0.0298    0.0012
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):                34.0      34.5       0.5
+
+
+ sc15a10.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:    -3.083    -4.782     0.223     0.247
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):        67.8516   -0.0319
+
+ Mean bearing (deg) rate from GPS data (deg/s):          -79.3286   -0.0347
+
+ Std of In-track and Cross-track Displacements:            2.9431    1.6684
+
+ Mean heading (deg), Speed (m/s):                       -147.1802    5.6945
+
+ Mean heading (deg) rate from GPS data (deg/s):         -147.1802   -0.0028
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):      67.8930   -0.0347    -0.0349
+
+ Input and Output Variances:     0.051884    12.400336
+
+ Input and Output Variances:     0.053751    12.846575
+
+ Input and Output Variances:     0.052076    12.446088
+
+ Input and Output Variances:     0.062951    15.045317
+
+ Input and Output Variances:     0.062493     0.074990
+
+ Means of moc32 and mdown:       2.109490     2.109490
+
+ Input and Output Variances:     0.136792     0.062493     0.074990    12.446088     0.051884    12.400336
+
+ Mean and Std. of heading from GPS Data:                -147.1802    2.3873
+
+ Average speed, speed of average components:               5.6945    5.6854
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:         5.2644    5.2652    5.2644   -5.2644
+ LHS, RHS, xrv:                                           27.7135   27.7135    5.2644
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):               2.1095    0.0039    0.9442    0.2500
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.2500    0.2496
+
+ wavePeriod, wavePeriodUse, std(mocomp):                   4.7410    4.2669    0.1688
+ Original Mean, Output Mean (m/s):                         2.1095    2.1100
+
+ Original Acc, Output Acc (m/s^2):                         0.0039    0.0039
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:       4.2669    0.2496    0.3196    0.3171    0.4003
+
+ Acceleration Error, dRmaxA:                               0.0007    5.1392
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         5.2918    5.2652   94.7082    5.2918
+ LHS, RHS, xrv:                                         1998.8202 1998.8202    5.2918
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                        0.0033    0.0032    0.0231
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):              67.8      68.3       0.4
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         4.6060    5.2652   95.3940    4.6060
+ LHS, RHS, xrv:                                         2060.6167 2060.6167    4.6060
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):    0.0033    0.0032    0.0238    0.0039
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):                67.8      65.4      -2.4
+
+
+ sc15a11.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:     1.128    -5.791     0.252     0.359
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):        99.4075   -0.0309
+
+ Mean bearing (deg) rate from GPS data (deg/s):          -91.6433   -0.0371
+
+ Std of In-track and Cross-track Displacements:            2.2354    2.5581
+
+ Mean heading (deg), Speed (m/s):                        168.9494    5.9056
+
+ Mean heading (deg) rate from GPS data (deg/s):          168.9492   -0.0062
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):      99.3881   -0.0371    -0.0372
+
+ Input and Output Variances:     0.062670    14.978130
+
+ Input and Output Variances:     0.127523    30.478102
+
+ Input and Output Variances:     0.110479    26.404523
+
+ Input and Output Variances:     0.123280    29.463878
+
+ Input and Output Variances:     0.122292     0.146747
+
+ Means of moc32 and mdown:      -0.947110    -0.947110
+
+ Input and Output Variances:     0.168238     0.122292     0.146747    26.404523     0.062670    14.978130
+
+ Mean and Std. of heading from GPS Data:                 168.9494    2.5578
+
+ Average speed, speed of average components:               5.9056    5.8957
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:         5.8116    5.8172    5.8116   -5.8116
+ LHS, RHS, xrv:                                           33.7749   33.7749    5.8116
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):              -0.9471    0.0031    0.7425    0.3497
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.3497    0.3493
+
+ wavePeriod, wavePeriodUse, std(mocomp):                   5.1413    4.6271    0.2910
+ Original Mean, Output Mean (m/s):                        -0.9471   -0.9459
+
+ Original Acc, Output Acc (m/s^2):                         0.0031    0.0031
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:       4.6271    0.3493    0.3620    0.2808    0.6888
+
+ Acceleration Error, dRmaxA:                              -0.0007   -4.8250
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         5.8400    5.8172   94.1600    5.8400
+ LHS, RHS, xrv:                                         1950.1068 1950.1068    5.8400
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                        0.0031    0.0038    0.0218
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):              99.4      99.2      -0.1
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         6.5248    5.8172   93.4752    6.5248
+ LHS, RHS, xrv:                                         1890.0895 1890.0895    6.5248
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):    0.0031    0.0038    0.0211    0.0031
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):                99.4      98.3      -1.1
+
+
+ sc15a12.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:     4.956    -3.432     0.327     0.468
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):       131.1716    0.0009
+
+ Mean bearing (deg) rate from GPS data (deg/s):         -104.2158   -0.0316
+
+ Std of In-track and Cross-track Displacements:            3.5360    8.8974
+
+ Mean heading (deg), Speed (m/s):                        124.6121    6.0425
+
+ Mean heading (deg) rate from GPS data (deg/s):          124.6126   -0.0325
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):     131.0980   -0.0317    -0.0318
+
+ Input and Output Variances:     0.097198    23.230273
+
+ Input and Output Variances:     0.164233    39.251607
+
+ Input and Output Variances:     0.115408    27.582615
+
+ Input and Output Variances:     0.118729    28.376236
+
+ Input and Output Variances:     0.117550     0.141057
+
+ Means of moc32 and mdown:      -3.996588    -3.996588
+
+ Input and Output Variances:     0.121076     0.117550     0.141057    27.582615     0.097198    23.230273
+
+ Mean and Std. of heading from GPS Data:                 124.6121    4.0196
+
+ Average speed, speed of average components:               6.0425    6.0324
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:         4.5469    4.5447    4.5469   -4.5469
+ LHS, RHS, xrv:                                           20.6746   20.6746    4.5469
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):              -3.9966    0.0009    0.2057    0.3429
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.3429    0.3427
+
+ wavePeriod, wavePeriodUse, std(mocomp):                  13.6833   12.3149    0.2597
+ wavePeriod, wavePeriodUse, std(mocomp):                  13.6833   12.5886    0.2559
+ wavePeriod, wavePeriodUse, std(mocomp):                  13.6833   12.8623    0.2531
+ wavePeriod, wavePeriodUse, std(mocomp):                  13.6833   13.1359    0.2525
+ wavePeriod, wavePeriodUse, std(mocomp):                  13.6833   13.4096    0.2514
+ wavePeriod, wavePeriodUse, std(mocomp):                  13.6833   13.6833    0.2514
+ Original Mean, Output Mean (m/s):                        -3.9966   -3.9976
+
+ Original Acc, Output Acc (m/s^2):                         0.0009    0.0009
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:      13.6833    0.3427    0.2588    0.2196    0.7679
+
+ Acceleration Error, dRmaxA:                              -0.0016  -11.7865
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         4.5706    4.5447   95.4294    4.5706
+ LHS, RHS, xrv:                                         2063.8315 2063.8315    4.5706
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                        0.0008    0.0025    0.0252
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):             131.1     131.2       0.1
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         6.0700    4.5447   93.9300    6.0700
+ LHS, RHS, xrv:                                         1929.8420 1929.8420    6.0700
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):    0.0008    0.0025    0.0236    0.0009
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):               131.1     123.4      -7.8
+
+
+ sc15a13.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:     5.591     1.079     0.411     0.449
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):       168.7677   -0.0370
+
+ Mean bearing (deg) rate from GPS data (deg/s):         -112.1440   -0.0103
+
+ Std of In-track and Cross-track Displacements:            3.7053    8.4772
+
+ Mean heading (deg), Speed (m/s):                         79.0863    5.7120
+
+ Mean heading (deg) rate from GPS data (deg/s):           79.0883    0.0267
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):     168.7288   -0.0098    -0.0098
+
+ Input and Output Variances:     0.174969    41.817504
+
+ Input and Output Variances:     0.157793    37.712633
+
+ Input and Output Variances:     0.087131    20.824276
+
+ Input and Output Variances:     0.088948    21.258487
+
+ Input and Output Variances:     0.088410     0.106089
+
+ Means of moc32 and mdown:      -5.646784    -5.646784
+
+ Input and Output Variances:     0.088478     0.088410     0.106089    20.824276     0.174969    41.817504
+
+ Mean and Std. of heading from GPS Data:                  79.0863    4.5715
+
+ Average speed, speed of average components:               5.7120    5.6917
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:         1.1156    1.1077    1.1156   -1.1156
+ LHS, RHS, xrv:                                            1.2445    1.2445    1.1156
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):              -5.6468   -0.0001   -0.0286    0.2973
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.2973    0.2973
+
+ wavePeriod, wavePeriodUse, std(mocomp):                  16.1127   14.5014    0.2124
+ Original Mean, Output Mean (m/s):                        -5.6468   -5.6479
+
+ Original Acc, Output Acc (m/s^2):                        -0.0001   -0.0002
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:      14.5014    0.2973    0.2127    0.2018    0.7344
+
+ Acceleration Error, dRmaxA:                              -0.0004   -2.7151
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         1.1658    1.1077   98.8342    1.1658
+ LHS, RHS, xrv:                                         2384.7768 2384.7768    1.1658
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                       -0.0000    0.0002    0.0368
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):             168.8     168.3      -0.4
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:         1.4165    1.1077   98.5835    1.4165
+ LHS, RHS, xrv:                                         2360.3605 2360.3605    1.4165
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):   -0.0000    0.0002    0.0364   -0.0002
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):               168.8     165.9      -2.9
+
+
+ sc15a14.moc
+
+ Parameters from the GPS routine that apply to all methods:
+
+ Mean and standard deviations for East and North velocities:     3.289     4.644     0.277     0.248
+
+ Mean Aspect (deg) and rate from GPS data (deg/s):      -143.6825    0.0291
+
+ Mean bearing (deg) rate from GPS data (deg/s):         -108.3872    0.0418
+
+ Std of In-track and Cross-track Displacements:            2.0350    4.2707
+
+ Mean heading (deg), Speed (m/s):                         35.2961    5.6970
+
+ Mean heading (deg) rate from GPS data (deg/s):           35.2955    0.0128
+
+ Ideal Aspect (deg) and rates from GPS data (deg/s):    -143.4790    0.0424     0.0422
+
+ Input and Output Variances:     0.072756    17.388765
+
+ Input and Output Variances:     0.060676    14.501591
+
+ Input and Output Variances:     0.085025    20.321093
+
+ Input and Output Variances:     0.091244    21.807270
+
+ Input and Output Variances:     0.090316     0.108377
+
+ Means of moc32 and mdown:      -4.604818    -4.604818
+
+ Input and Output Variances:     0.104570     0.090316     0.108377    20.321093     0.072756    17.388765
+
+ Mean and Std. of heading from GPS Data:                  35.2961    2.6153
+
+ Average speed, speed of average components:               5.6970    5.6879
+
+                 Results for GPS Data Only:
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -3.3939   -3.3688    3.3939   -3.3939
+ LHS, RHS, xrv:                                           11.5189   11.5189   -3.3939
+
+                 Results needed for ISAR Data Analysis Only:
+ Mean Rdot, Acceleration, Acc*T, std(noise):              -4.6048    0.0017    0.4136    0.3005
+
+ OrigNoise, SmoothNoise (m/s) in IAT_DataPrepSCATR:        0.3005    0.3004
+
+ wavePeriod, wavePeriodUse, std(mocomp):                   9.5237    8.5713    0.2165
+ wavePeriod, wavePeriodUse, std(mocomp):                   9.5237    8.9522    0.2154
+ Original Mean, Output Mean (m/s):                        -4.6048   -4.6059
+
+ Original Acc, Output Acc (m/s^2):                         0.0017    0.0017
+
+ Chapeau estimate of wave period, std(V,C), Chapeau:       8.9522    0.3004    0.2455    0.2186    0.6963
+
+ Acceleration Error, dRmaxA:                              -0.0008   -5.6180
+
+                 Results for a moving radar at a different range (DEMO):
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -3.2174   -3.3688  103.2174   -3.2174
+ LHS, RHS, xrv:                                         2832.0875 2832.0875   -3.2174
+
+ AccG(kFr,k), AccM(kFr,k), AccD(k):                        0.0014    0.0025    0.0619
+
+ AspGPS(kFr,k), AspIATD(kFr,k), AspDifD(kFr,k):            -143.7    -145.1      -1.4
+
+                 Results for a moving radar at a different range (Data):
+ Crossrange velocity for IAT, GPS, Plus and Minus:        -2.8807   -3.3688  102.8807   -2.8807
+ LHS, RHS, xrv:                                         2796.3667 2796.3667   -2.8807
+
+ AccG(kFr,k), AccM(kFr,k), AccE(kFr,k), MocoAcc(kFr,k):    0.0014    0.0025    0.0611    0.0017
+
+ AspGPS(kFr,k), AspIAT(kFr,k), AspDif(kFr,k):              -143.7    -148.0      -4.3
+
+ RMS AspDifD, AspDif:     0.6968    3.6987
+
+ RMS AspDifD, AspDif:     0.5248    0.9732
+
+ RMS AspDifD, AspDif:     0.8861    2.5884
+
+ RMS AspDifD, AspDif:     0.1873    0.4765
+
+ RMS AspDifD, AspDif:     0.4320    2.4415
+
+ RMS AspDifD, AspDif:     0.1491    1.1019
+
+ RMS AspDifD, AspDif:     0.0508    7.7547
+
+ RMS AspDifD, AspDif:     0.4426    2.8591
+
+ RMS AspDifD, AspDif:     1.3770    4.2895
+
+ RMS AspDifD, AspDif:     0.6968    3.6987
+
+ RMS Error for AccG, MocoAcc0:                            0.00082   0.00078
+
+ Correlation G/I, std(G), std(I), std(V):                 0.99390   0.00188   0.00197   0.00197
